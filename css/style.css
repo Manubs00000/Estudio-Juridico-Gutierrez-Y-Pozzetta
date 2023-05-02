@@ -155,10 +155,16 @@ header {
     padding-bottom: 3rem;
 }
 
-.sectionP1{
+.sectionP1 img{
     display: flex;
     justify-content: center;
     padding-bottom: 6rem;
+    max-width: 100%;
+    height: auto;
+}
+.estudioP{
+    width: 100%;
+    height: auto;
 }
 
 .sectionP2{
@@ -177,13 +183,7 @@ header {
     grid-area: item1;
 }
 
-.itemP2 img{
-    width: 100%;
-    height: auto;
-    grid-area: item2;
-}
-
-.itemP3{
+.itemP2{
     font-size: 2rem;
     grid-area: item3;
     background-color: #0f928c;
@@ -191,6 +191,13 @@ header {
     padding: 2rem;
 
 }
+
+.itemP3 img{
+    width: 100%;
+    height: auto;
+    grid-area: item2;
+}
+
 
 .itemP4{
     font-size: 2rem;
@@ -291,4 +298,102 @@ header {
     }
 }
 
+@media (max-width: 700px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+}
 
+@media (max-width: 700px) {
+    .estudioP{
+        max-width: 100%;
+        height: auto;
+}
+}
+
+@media (max-width: 700px) {
+    .sectionP2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 700px) {
+    .itemP2{
+        font-size: small;
+    }
+}
+
+@media (max-width: 700px) {
+    .itemP4{
+        font-size: small;
+    }
+}
+
+@media (max-width: 700px) {
+    .abogados img{
+        max-width: 100%;
+        height: auto
+    }
+}
+
+@media (max-width: 700px) {
+    .nosotros-N1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 700px) {
+    .nosotros-parrafo{
+        font-size: small;
+    }
+}
+
+@media (max-width: 700px) {
+    .sobre img{
+        max-width: 100%;
+        height: auto
+    }
+}
+
+@media (max-width: 700px) {
+    .abogados-servicios{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: small;
+    }
+}
+
+@media (max-width: 700px) {
+    .abogados-1-2{
+        max-width: 100%;
+        height: auto
+    }
+}
+@media (max-width: 700px) {
+    .contacto-formulario{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 700px) {
+    .balanzaC{
+        max-width: 100%;
+        height: auto
+    }
+}
+@media (max-width: 700px) {
+    .ubicacion-formulario{
+        max-width: 100%;
+        height: auto
+    }
+}
+@media (max-width: 700px) {
+    .mapa-estudio{
+        height: 300px;
+        max-width: 100%;
+    }
+}
