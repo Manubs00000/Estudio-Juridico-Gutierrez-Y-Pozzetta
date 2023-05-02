@@ -155,14 +155,12 @@ header {
     padding-bottom: 3rem;
 }
 
-.sectionP1 img{
+.estudioP{
     display: flex;
     justify-content: center;
     padding-bottom: 6rem;
     max-width: 100%;
     height: auto;
-}
-.estudioP{
     width: 100%;
     height: auto;
 }
@@ -307,7 +305,7 @@ header {
 }
 
 @media (max-width: 700px) {
-    .estudioP{
+    .sectionP1 img{
         max-width: 100%;
         height: auto;
 }
