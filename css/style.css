@@ -261,12 +261,22 @@ header {
     align-items: center;
 }
 
+@media (max-width: 700px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 768px) {
     body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        margin-bottom: 2rem;
+        padding: 2rem;
     }
 }
 
@@ -297,12 +307,115 @@ header {
 }
 
 @media (max-width: 700px) {
-    header{
+    .section2{
         display: flex;
         flex-wrap: wrap;
-        font-size: 1rem;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+        margin: 0%;
+        padding: 0%;
     }
 }
+
+@media (max-width: 700px) {
+    .clientestitulo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .clientes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+        font-size: small;
+        margin: 0%;
+        padding: 0%;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .section3{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 0%;
+        padding-top: 3rem;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .balanzajusticia{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+
+    }
+}
+
+@media (max-width: 700px) {
+    .logros{
+        font-size: small;
+    }
+}
+
+@media (max-width: 700px) {
+    .logro2{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .section4{
+        padding: 0%;
+        margin: 0%;
+    }
+}
+
+@media (max-width: 700px) {
+    .section4 img{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0%;
+        padding-bottom: 3rem;
+        max-width: 100%;
+        height: auto;
+        font-size: small;
+    }
+}
+
+@media (max-width: 700px) {
+    .reconocimientos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        margin: 0%;
+        padding: 0%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .parrafo3{
+        font-size: small;
+    }
+}
+
 
 @media (max-width: 700px) {
     .sectionP1 img{
