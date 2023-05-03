@@ -9,6 +9,7 @@
 
 .body{
     background-image: url(../images/background.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -475,19 +476,28 @@ header {
         display: flex;
         flex-wrap: wrap;
         font-size: small;
+        padding: 0%;
     }
 }
 
 @media (max-width: 700px) {
     .abogados-1-2{
         max-width: 100%;
-        height: auto
+        height: auto;
+        padding-bottom: 3rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .servicios-lista ul{
+        padding: 0%;
     }
 }
 @media (max-width: 700px) {
     .contacto-formulario{
         display: flex;
         flex-wrap: wrap;
+        padding: 0%;
     }
 }
 @media (max-width: 700px) {
