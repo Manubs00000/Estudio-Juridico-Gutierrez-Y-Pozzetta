@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: blanchedalmond;
+}
+
+.body {
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.logo {
+  width: 7rem;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3rem;
+  font-family: 'Raleway', sans-serif;
+  color: blanchedalmond;
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 6rem;
+    padding-right: 9rem;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: blanchedalmond;
+  }
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto 1fr auto;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+
+  video {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+.clientes {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 1rem;
+  gap: 10rem;
+
+  .itemI1, .itemI4 {
+    border-radius: 10px;
+    padding: 20px;
+    background-clip: padding-box;
+    background-color: #006465;
+  }
+
+  .itemI2, .itemI3 {
+    border-radius: 10px;
+    padding: 20px;
+    background-clip: padding-box;
+    background-color: #0f928c;
+  }
+}
+
+.section2 {
+  margin: 5rem;
+  font-size: 2rem;
+
+  .clientestitulo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    font-size: 3rem;
+    margin: 2rem;
+  }
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  margin: 5rem;
+
+  .logros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+
+    .logro2 {
+      img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 19rem;
+      }
+    }
+  }
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  margin: 5rem;
+}
+
+.reconocimientos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+.sellos {
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo3 {
+    display: flex;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.estudioP {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6rem;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    height: auto;
+}
+
+.sectionP2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "item1 item2"
+        "item3 item4";
+    gap: 3rem;
+    padding-bottom: 6rem;
+    
+    .itemP1 img {
+        width: 100%;
+        height: auto;
+        grid-area: item1;
+    }
+
+    .itemP2 {
+        font-size: 2rem;
+        grid-area: item3;
+        background-color: #0f928c;
+        border-radius: 2rem;
+        padding: 2rem;
+    }
+
+    .itemP3 img {
+        width: 100%;
+        height: auto;
+        grid-area: item2;
+    }
+
+    .itemP4 {
+        font-size: 2rem;
+        grid-area: item4;
+        background-color: #006465; 
+        border-radius: 2rem;  
+        padding: 2rem;
+    }
+}
+
+.abogados {
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros-N1 {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    gap: 5rem;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 5rem;    
+
+    .nosotros-titulo {
+        font-size: 3rem;
+    }
+
+    .nosotros-parrafo {
+        font-size: 2rem;
+        background-color: #006465; 
+        border-radius: 2rem;  
+        padding: 2rem;
+    }
+}
+
+.abogados-servicios {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem;
+    font-size: 3rem;
+}
+
+.contacto-formulario {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 3rem;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    body {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .section1 {
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: auto 1fr auto;
+      padding: 0 20px;
+      video {
+        grid-column: 2 / -2;
+        grid-row: 2 / 3;
+      }
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .section1 {
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: auto 1fr auto;
+      padding: 0 40px;
+      video {
+        grid-column: 3 / -3;
+        grid-row: 2 / 3;
+      }
+    }
+  }
+  
+  @media (max-width: 700px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+    .section2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .clientestitulo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0rem;
+    }
+    
+    .clientes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+        font-size: small;
+        margin: 0%;
+        padding: 0%;
+        gap: 2rem;
+    }
+    
+    .section3{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 0%;
+        padding-top: 3rem;
+    }
+    
+    .balanzajusticia{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .logros{
+        font-size: small;
+    }
+    
+    .logro2{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: auto;
+    img {
+        margin: 0%;
+        }
+    }
+    
+    .section4{
+        padding: 0%;
+        margin: 0%;
+    img {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0%;
+        padding-bottom: 3rem;
+        max-width: 100%;
+        height: auto;
+        font-size: small;
+        }
+    }
+    
+    .reconocimientos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        margin: 0%;
+        padding: 0%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .parrafo3{
+        font-size: small;
+    }
+    
+    .sectionP1 img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+
+    .sectionP2 {
+    |   display: flex;
+    |   flex-wrap: wrap;
+    }
+    .itemP2, .itemP4 {
+        font-size: small;
+    }
+    .abogados img, .sobre img, .abogados-1-2 {
+        max-width: 100%;
+        height: auto;
+    }
+    .abogados img {
+        padding-bottom: 2rem;
+    }
+    .nosotros-N1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0%;
+        padding-bottom: 2rem;
+    }
+    .nosotros-parrafo, .abogados-servicios {
+        font-size: small;
+        padding: 0%;
+    }
+    .servicios-lista ul {
+        padding: 0%;
+    }
+    .contacto-formulario, .ubicacion-formulario {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0%;
+    }
+    .abogados-1-2 {
+        padding-bottom: 3rem;
+    }
+    .balanzaC, .ubicacion-formulario {
+        max-width: 100%;
+        height: auto;
+    }
+    .mapa-estudio {
+        height: 300px;
+        max-width: 100%;
+    }
+    }
