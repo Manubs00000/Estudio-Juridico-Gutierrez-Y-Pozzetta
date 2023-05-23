@@ -120,6 +120,12 @@ header {
     margin: 5rem;
 }
 
+.logro1 img {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
 .logros{
     display: flex;
     justify-content: center;
@@ -269,7 +275,7 @@ header {
     align-items: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     header{
         display: flex;
         flex-wrap: wrap;
@@ -312,7 +318,7 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .section2{
         display: flex;
         flex-wrap: wrap;
@@ -324,7 +330,7 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .clientestitulo{
         display: flex;
         flex-wrap: wrap;
@@ -333,7 +339,7 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .clientes{
         display: flex;
         flex-wrap: wrap;
@@ -347,18 +353,19 @@ header {
     }
 }
 
-@media (max-width: 700px) {
-    .section3{
+@media (max-width: 1024px) {
+    .section3 {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
         margin: 0%;
         padding-top: 3rem;
+        justify-content: center;
     }
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .balanzajusticia{
         display: flex;
         justify-content: center;
@@ -368,12 +375,12 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .logros{
         font-size: small;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .logro2{
         display: flex;
         flex-direction: column-reverse;
@@ -382,20 +389,20 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .logro2 img{
         margin: 0%;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .section4{
         padding: 0%;
         margin: 0%;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .section4 img{
         display: flex;
         flex-wrap: wrap;
@@ -407,7 +414,7 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .reconocimientos{
         display: flex;
         flex-wrap: wrap;
@@ -421,40 +428,40 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .parrafo3{
         font-size: small;
     }
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .sectionP1 img{
         max-width: 100%;
         height: auto;
 }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .sectionP2{
         display: flex;
         flex-wrap: wrap;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .itemP2{
         font-size: small;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .itemP4{
         font-size: small;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .abogados img{
         max-width: 100%;
         height: auto;
@@ -462,7 +469,7 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .nosotros-N1{
         display: flex;
         flex-wrap: wrap;
@@ -471,20 +478,20 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .nosotros-parrafo{
         font-size: small;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .sobre img{
         max-width: 100%;
         height: auto
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .abogados-servicios{
         display: flex;
         flex-wrap: wrap;
@@ -493,7 +500,7 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .abogados-1-2{
         max-width: 100%;
         height: auto;
@@ -501,33 +508,33 @@ header {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .servicios-lista ul{
         padding: 0%;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .contacto-formulario{
         display: flex;
         flex-wrap: wrap;
         padding: 0%;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .balanzaC{
         max-width: 100%;
         height: auto
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .ubicacion-formulario{
         max-width: 100%;
         height: auto
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .mapa-estudio{
         height: 300px;
         max-width: 100%;
     }
-}
+}*/
