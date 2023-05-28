@@ -34,18 +34,57 @@ header {
     color: blanchedalmond
 }
 
-.menu {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    list-style-type: none;
-    gap: 6rem;
-    padding-right: 9rem;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    color: blanchedalmond
+.nav {
+    background-color: transparent;
+    padding: 10px;
 }
 
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 10px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: transparent;
+    gap: 0rem;
+}
+
+.menu-item a:hover {
+    background-color: transparent;
+}
+
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-btn {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-btn__burger {
+    display: none;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 4px;
+}
 .section1 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -280,6 +319,34 @@ header {
         display: flex;
         flex-wrap: wrap;
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 1023px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .menu-btn__burger {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: black;
+        margin-bottom: 4px;
+    }
+
+    .menu-toggle:checked ~ .menu {
+        display: block;
     }
 }
 
